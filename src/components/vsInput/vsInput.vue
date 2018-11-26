@@ -53,6 +53,7 @@
         :class="{'icon-after':iconAfter}"
         :iconPack="iconPack"
         :icon="icon"
+        :size="iconSize"
         @click="focusInput">
       </vs-icon>
 
@@ -151,6 +152,10 @@ export default {
     iconPack:{
       default:'material-icons',
       type:String
+    },
+    iconSize: {
+      default: null,
+      type: String
     },
     color:{
       default:'primary',

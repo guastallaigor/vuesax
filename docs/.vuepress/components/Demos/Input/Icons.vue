@@ -6,6 +6,8 @@
     <vs-input icon-after="true"  icon="shopping_cart" label-placeholder="Label-placeholder" v-model="value4"/>
     <vs-input disabled="true" icon="error_outline" label-placeholder="icon-disabled" v-model="value5"/>
     <vs-input icon-after="true" disabled="true" icon="email" label-placeholder="icon-disabled" v-model="value6"/>
+    <vs-input icon-size="large" size="large" icon="error_outline" label-placeholder="icon-size-large" v-model="value7"/>
+    <vs-input icon-size="small" icon-after="true" icon="email" label-placeholder="icon-size-small" v-model="value8"/>
   </div>
 </template>
 
